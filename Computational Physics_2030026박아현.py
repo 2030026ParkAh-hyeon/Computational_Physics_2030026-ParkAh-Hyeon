@@ -31,7 +31,7 @@ universities_model.fit(years, universities)
 
 # 대학교 수와 수험생 수의 관계성을 알아보기 위한 코드 요청
 # 20년 동안 감소한 수험생의 수를 x축의 독립 변수로, 이에 따른 감소한 대학 수는 종속 변수로 설정
-# Linear Regression model로 수험생 수와  사이의 관계성을 구함
+# Linear Regression model로 수험생 수와 대학 수 사이의 관계성을 구함
 # ->Linear Regression model을 이용한 코드 제시
 candidates_change = candidates[-1] - candidates[0] # 2006년에서 2024년까지의 수험생 수 변화
 universities_change = universities[-1] - universities[0] # 2006년부터 2024년까지의 대학 수 변화
